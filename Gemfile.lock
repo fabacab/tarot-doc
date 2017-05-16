@@ -1,0 +1,21 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    binman (5.1.0)
+      opener (>= 0.1.0, < 1)
+    md2man (5.1.1)
+      binman (~> 5.0)
+      redcarpet (~> 3.0)
+      rouge (~> 1.0)
+    opener (0.1.0)
+    redcarpet (3.4.0)
+    rouge (1.11.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  md2man
+
+BUNDLED WITH
+   1.14.2

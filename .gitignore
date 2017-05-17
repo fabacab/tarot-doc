@@ -3,6 +3,7 @@
 
 .bundle
 vendor/*
+build/
 
 # We ignore anything with extension `.7` because these are generated.
 *.7

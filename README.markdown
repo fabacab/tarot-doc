@@ -43,6 +43,6 @@ Bundled gems are installed into ./vendor/bundle.
 Once installed, you can generate individual manual pages from the files in the `src` directory and view them in your manual page viewer as follows:
 
 ```sh
-$ bundle exec md2man-roff src/the-fool.7.md > the-fool.7
-$ man ./the-fool.7
+$ ./utils/build.sh --force-clean # Use the build script to clean and regenerate the docs.
+$ man ./build/the-fool.7         # View generated documentation with the man page viewer.
 ```

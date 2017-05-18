@@ -17,7 +17,7 @@ First, ensure you have installed the following, in the following order:
 * [Ruby](https://www.ruby-lang.org/) (version 2.0 or later is recommended)
     * Test this by asking your system to report its Ruby version number: `ruby --version`
 * [Bundler](https://bundler.io/)
-    * Test this by asking your system to report its Bundler versio number: `bundler --version`
+    * Test this by asking your system to report its Bundler version number: `bundler --version`
 
 ### Set up
 
